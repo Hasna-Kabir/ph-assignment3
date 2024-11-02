@@ -574,38 +574,45 @@
           </div>
         </section>
     </main>
-    <footer class="footer bg-[#131318] text-base-content px-24 py-16 grid grid-cols-[40%_repeat(3,1fr)] gap-[7%]">
-      <aside class="space-y-3">
-        <h1 class="text-3xl font-extrabold text-white">Get In Touch</h1>
+    <footer class="footer bg-[#131318] text-base-content px-24 py-16 grid grid-cols-2 md:grid-cols-[40%_repeat(3,1fr)] gap-[7%]">
+      <aside class="space-y-3 col-span-2 md:col-span-1 text-center mx-auto md:text-left lg:text-left">
+        <h1 class="text-3xl font-extrabold text-white mx-auto md:mx-0 lg:mx-0">Get In Touch</h1>
         <p class="text-base font-normal text-[rgba(255,255,255,0.6)]">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur, placeat neque modi quod corporis blanditiis sint repellat sunt tempora alias.
         </p>
-        <h1 class="text-base font-normal text-[rgba(255,255,255,0.8)]"><span class="text-custom-red pr-3"><i class="fa-regular fa-envelope"></i></span>hockeys@support.com</h1>
-        <h1 class="text-base font-normal text-[rgba(255,255,255,0.8)]"><span class="text-custom-red pr-3"><i class="fa-solid fa-phone"></i></i></span>hockeys@support.com</h1>
+        <h1 class="text-base font-normal text-[rgba(255,255,255,0.8)] mx-auto md:mx-0 lg:mx-0"><span class="text-custom-red pr-3"><i class="fa-regular fa-envelope"></i></span>hockeys@support.com</h1>
+        <h1 class="text-base font-normal text-[rgba(255,255,255,0.8)] mx-auto md:mx-0 lg:mx-0"><span class="text-custom-red pr-3"><i class="fa-solid fa-phone"></i></i></span>hockeys@support.com</h1>
       </aside>
-      <nav class="p-0 space-y-3">
-        <h6 class="text-lg font-bold text-white">Company</h6>
-        <a class="link link-hover font-medium text-base text-[rgba(255,255,255,0.6)]">About Us</a>
-        <a class="link link-hover font-medium text-base text-[rgba(255,255,255,0.6)]">Leadership</a>
-        <a class="link link-hover font-medium text-base text-[rgba(255,255,255,0.6)]">Carrers</a>
-        <a class="link link-hover font-medium text-base text-[rgba(255,255,255,0.6)]">News and Article</a>
-        <a class="link link-hover font-medium text-base text-[rgba(255,255,255,0.6)]">Legal Notice</a>
-      </nav>
-      <nav class="p-0 space-y-3">
-        <h6 class="text-lg font-bold text-white">Support</h6>
-        <a class="link link-hover font-medium text-base text-[rgba(255,255,255,0.6)]">Help Center</a>
-        <a class="link link-hover font-medium text-base text-[rgba(255,255,255,0.6)]">FAQ</a>
-        <a class="link link-hover font-medium text-base text-[rgba(255,255,255,0.6)]">Ticket Support</a>
-        <a class="link link-hover font-medium text-base text-[rgba(255,255,255,0.6)]">Contact Us</a>
-      </nav>
-      <nav class="p-0 space-y-3">
-        <h6 class="text-lg font-bold text-white">Services</h6>
-        <a class="link link-hover font-medium text-base text-[rgba(255,255,255,0.6)]">Academy</a>
-        <a class="link link-hover font-medium text-base text-[rgba(255,255,255,0.6)]">Group Lessons</a>
-        <a class="link link-hover font-medium text-base text-[rgba(255,255,255,0.6)]">Private Lesson</a>
-        <a class="link link-hover font-medium text-base text-[rgba(255,255,255,0.6)]">Hockeys for kids</a>
-        <a class="link link-hover font-medium text-base text-[rgba(255,255,255,0.6)]">Hockeys for adult</a>
-      </nav>
+      <div class="mx-auto">
+        <nav class="text-center md:text-left flex flex-col space-y-5">
+          <h6 class="text-lg font-bold text-white">Company</h6>
+          <a class="link link-hover font-medium text-base text-[rgba(255,255,255,0.6)]">About Us</a>
+          <a class="link link-hover font-medium text-base text-[rgba(255,255,255,0.6)]">Leadership</a>
+          <a class="link link-hover font-medium text-base text-[rgba(255,255,255,0.6)]">Carrers</a>
+          <a class="link link-hover font-medium text-base text-[rgba(255,255,255,0.6)]">News and Article</a>
+          <a class="link link-hover font-medium text-base text-[rgba(255,255,255,0.6)]">Legal Notice</a>
+        </nav>
+      </div>
+      <div class="mx-auto">
+        <nav class="text-center md:text-left flex flex-col space-y-5">
+          <h6 class="text-lg font-bold text-white">Support</h6>
+          <a class="link link-hover font-medium text-base text-[rgba(255,255,255,0.6)]">Help Center</a>
+          <a class="link link-hover font-medium text-base text-[rgba(255,255,255,0.6)]">FAQ</a>
+          <a class="link link-hover font-medium text-base text-[rgba(255,255,255,0.6)]">Ticket Support</a>
+          <a class="link link-hover font-medium text-base text-[rgba(255,255,255,0.6)]">Contact Us</a>
+        </nav>
+      </div>
+      <div class="col-span-2 md:col-span-1 mx-auto">
+        <nav class="text-center md:text-left lg:text-left flex flex-col space-y-5">
+          <h6 class="text-lg font-bold text-white">Services</h6>
+          <a class="link link-hover font-medium text-base text-[rgba(255,255,255,0.6)]">Academy</a>
+          <a class="link link-hover font-medium text-base text-[rgba(255,255,255,0.6)]">Group Lessons</a>
+          <a class="link link-hover font-medium text-base text-[rgba(255,255,255,0.6)]">Private Lesson</a>
+          <a class="link link-hover font-medium text-base text-[rgba(255,255,255,0.6)]">Hockeys for kids</a>
+          <a class="link link-hover font-medium text-base text-[rgba(255,255,255,0.6)]">Hockeys for adult</a>
+        </nav>
+      </div>
+      
     </footer>
 </body>
 </html>
